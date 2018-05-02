@@ -7,6 +7,13 @@ public class BasicTests
     {
         Assert.True(true);
     }
+    
+    [Fact]
+    public void Failing()
+    {
+        Assert.False(false);
+    }
+
 
     [Theory]
     [InlineData(2112)]
